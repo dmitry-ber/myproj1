@@ -1,0 +1,33 @@
+Started from command line by serviceuser
+Running as SYSTEM
+Building remotely on Node1 (ubuntu ubuntu18 ubuntu_ansible) in workspace /home/ubuntu/workspace/fromPC1
+[fromPC1] $ /bin/sh -xe /tmp/jenkins5330267221930990554.sh
++ echo =============Buld_Started=================
+=============Buld_Started=================
++ pwd
+/home/ubuntu/workspace/fromPC1
++ ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9001
+        inet 172.31.94.14  netmask 255.255.240.0  broadcast 172.31.95.255
+        inet6 fe80::1011:4ff:feff:ce9f  prefixlen 64  scopeid 0x20<link>
+        ether 12:11:04:ff:ce:9f  txqueuelen 1000  (Ethernet)
+        RX packets 32810  bytes 41259488 (41.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 6850  bytes 4021498 (4.0 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 190  bytes 16529 (16.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 190  bytes 16529 (16.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
++ hostname
+ip-172-31-94-14
++ cat
++ echo ============Build_Finished===================
+============Build_Finished===================
+Finished: SUCCESS
